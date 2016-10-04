@@ -44,6 +44,7 @@ function priceInput(el,pre,length) {
       }
     }
   });
+  //防止选择多个文字之后覆盖输入
   el.addEventListener('input',function(e){
     if(el.value.indexOf(pre)<0){
       el.value = pre + el.value;
