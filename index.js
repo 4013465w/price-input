@@ -43,6 +43,14 @@ function priceInput(el,pre,length) {
 
       }
     }
+    //加减价格
+    var num = value.replace(pre,'');
+    switch(e.keyCode){
+      case 38: el.value = pre +(++num);
+      break;
+      case 40: el.value = pre +(--num);;
+      break;
+    }
   });
   //防止选择多个文字之后覆盖输入
   el.addEventListener('input',function(e){
