@@ -70,5 +70,3 @@ function priceInput(el, pre, length) {
      el.value = pre + num;
   });
 }
-
-module.exports = priceInput;
