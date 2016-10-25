@@ -3,7 +3,7 @@
 
 ## 使用方法：
 ### 直接采用
-引入demo/index.js,调用
+引入demo/index.js,调用.
 `
 //input对象，前缀文字，小数点后的精确位数
 priceInput(document.getElementById('input'),'¥',2);
